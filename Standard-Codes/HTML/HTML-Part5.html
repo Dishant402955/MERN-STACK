@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>HTML Part 5 :-</h1>
+    <br><br>
+
+    <h2>Forms in HTML : </h2>
+    <p>Action attribute is used to define that which action will be performed when a form is submitted.</p>
+    <p>The main important element of form is 'input' and it have so many types.</p>
+    <p>The types of input are text , password, date, number, checkbox, Radio button, datetime, email, color</p>
+    <p>Placeholder is a attribute which is used to place some default text in the input field.</p>
+    <p>Label is a element which is used to connect a label with a input field.</p>
+    <p>We can directly put a submit, reset button in the form.</p>
+    <p>Name is a attribute which is used to refer to the type of information we will be entering in the input field.</p>
+    <br><br><br>
+
+    <form action="action.php">
+        <label for="username">Username :</label>
+        <input type="text" id="username" name="username">
+        <br><br>
+        <label for="password">Password :</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+        <input type="date" id="birthdate" name="birthdate">
+        <br><br>
+        <input type="file" id="resume" name="resume">
+        <br><br>
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <br><br><br>
+
+    <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="Search in youtube" name="search_query">
+        <button>Search</button>
+    </form>
+
+    <br><br>
+
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="Search in Google" name="q">
+        <button>Search</button>
+    </form>
+
+    <br><br>
+
+    <form action="action.php">
+
+        <input type="checkbox" id="age" name="age" checked>
+        <label for="age">I am 18+</label>
+        <br><br>
+
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" name="gender" id="others" value="others">
+        <label for="others">Others</label>
+
+        <br><br>
+
+        <input type="checkbox" name="subject" id="science" value="science">
+        <label for="science">Science</label>
+        <br>
+        <input type="checkbox" name="subject" id="maths" value="maths">
+        <label for="maths">Maths</label>
+        <br>
+        <input type="checkbox" name="subject" id="socialScience" value="socialScience">
+        <label for="socialScience">Social Science</label>
+
+        <br><br>
+
+        <select name="profession" id="profession">
+            <option value="sendev">Senior Developer</option>
+            <option value="jundev">Junior Developer</option>
+            <option value="desg" selected>Designer</option>
+            <option value="test">Tester</option>
+        </select>
+
+        <br><br>
+
+        <label for="volume"> Select Volume level : </label>
+        <input type="range"  min="10" max="100" step="5" value="30" id="volume" name="volume">
+
+        <br><br>
+
+        <textarea name="feedback" id="feedback" placeholder="Please enter your feedback here..." cols="30" rows="10"></textarea>
+
+        <br><br>
+        <input type="submit">
+
+
+    </form>     
+
+</body>
+</html>
