@@ -1,0 +1,49 @@
+h1{
+    color: aliceblue;
+    background-color: brown;
+}
+
+#back{
+    color:rgb(0, 0, 0);
+    background-color:rgb(145, 145, 236);
+}
+
+#color{
+    color: blueviolet;
+}
+
+#left{
+    text-align: left;
+    font-weight: 800;
+}
+
+#center{
+    text-align: center;
+    text-decoration: wavy red underline;
+}
+
+#right{
+    text-align: right;
+    line-height: 3;
+    background-color: antiquewhite;
+}
+
+#spacing{
+    letter-spacing: 7px;
+}
+
+#fontsize{
+    font-size: 25px;
+}
+
+#fontfamilies{
+    font-family:  'Lucida Grande',  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva,  sans-serif;
+}
+
+#temp1{
+    font-family:  'Arial Narrow Bold',  Verdana, Geneva,  sans-serif;
+}
+
+#temp2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
