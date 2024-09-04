@@ -11,18 +11,18 @@
     <br><br>
 
     <h2>Forms in HTML : </h2>
-    <p>Action attribute is used to define that which action will be performed when a form is submitted.</p>
-    <p>The main important element of form is 'input' and it have so many types.</p>
-    <p>The types of input are text , password, date, number, checkbox, Radio button, datetime, email, color</p>
-    <p>Placeholder is a attribute which is used to place some default text in the input field.</p>
-    <p>Label is a element which is used to connect a label with a input field.</p>
-    <p>We can directly put a submit, reset button in the form.</p>
-    <p>Name is a attribute which is used to refer to the type of information we will be entering in the input field.</p>
+    <p> >>> Action attribute is used to define that which action will be performed when a form is submitted.</p>
+    <p> >>> The main important element of form is 'input' and it have so many types.</p>
+    <p> >>> The types of input are text , password, date, number, checkbox, Radio button, datetime, email, color</p>
+    <p> >>> Placeholder is a attribute which is used to place some default text in the input field.</p>
+    <p> >>> Label is a element which is used to connect a label with a input field.</p>
+    <p> >>> We can directly put a submit, reset button in the form.</p>
+    <p> >>> Name is a attribute which is used to refer to the type of information we will be entering in the input field.</p>
     <br><br><br>
 
     <form action="action.php">
         <label for="username">Username :</label>
-        <input type="text" id="username" name="username">
+        <input type="text" id="username" name="username" pattern="[a-z][1,50]" title="Please enter a valid name!!">
         <br><br>
         <label for="password">Password :</label>
         <input type="password" id="password" name="password">
