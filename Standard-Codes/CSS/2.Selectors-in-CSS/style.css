@@ -30,3 +30,26 @@ h1{
     background-color: chocolate;
 }
 
+#mydiv p {
+    background-color: antiquewhite;
+}
+
+p a {
+    color: rgb(236, 109, 236);
+}
+
+p + h3 {
+    text-decoration: overline;
+}
+
+div > input{
+    background-color:blanchedalmond;
+}
+
+input[type="text"] {
+    text-align: center;
+}
+
+input[type="password"] {
+    text-align: right;
+}

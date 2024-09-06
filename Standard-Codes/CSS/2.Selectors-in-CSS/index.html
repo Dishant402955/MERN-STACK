@@ -9,15 +9,26 @@
 </head>
 
 <body>
-    <h1>Selectors in HTML : </h1>
-    <p>There are many types of selectors in CSS like : Element, universal, id, class selectors.</p>
+    <h1>Selectors in CSS : </h1>
+    <p>There are many types of selectors in CSS like : Element, universal, id, class, descendent, attribute selectors.</p>
     <p>Through element selector we can select a specific element by using it's name.</p>
-    <p>Another selector we know is universal selector '*' ,through which we can select each element of out entire document.</p>
+    <p>Through universal selector '*' ,through which we can select each element of out entire document.</p>
     <p>Through Id selector we can select a perticular element with Id.</p>
     <p>Through class selector we can select a perticular group elements with same class.</p>
-    <br><br>
-    <p>So below the demonstration of the Different selectors is shown.</p>
-    <br><hr/><hr/><hr/>
+    <p>Through Descendant selector we can select a element inside a perticuler element.</p>
+    <p>Through attribute selector we can select elements based on their attribute values ,like input[type="text"] will select input elements of type text.</p>
+    <br>
+    <p>The order of importance in selectors is : id > class > element</p>
+    <br>
+    <h2>Adjacent Sibling Combinator :</h2>
+    <p>There are many types of combinator available like : +, >, ~ </p>
+    <p> '+' is used to select a element which comes immediatly after it and are of same level, like " p + a " will select 'a' which comes immediatly after p .</p>
+    <p> '>' is used to select elements which are direct chidld of an element, like " p > a " will select all 'a' which are direct childs of 'p'.</p>  
+   
+    <br><hr/><br/><br/>
+    <p>So the demonstration is shown below .</p>
+
+    <br><br><hr/><hr/><hr/>
 
     <header>
         <h1>Quora
@@ -50,7 +61,7 @@
             <button class="answer">answer</button>
         </span>
 
-        <hr/>
+        <br/><br/><hr/>
 
         <p>
             Bob &nbsp;&nbsp; 
@@ -62,7 +73,7 @@
             <button class="answer">answer</button>
         </span>
 
-        <hr/>
+        <br/><br/><hr/>
 
         <p>
             Dan &nbsp;&nbsp; 
@@ -74,7 +85,7 @@
             <button class="answer">answer</button>
         </span>
 
-        <hr/>
+        <br/><br/><hr/>
 
         <p>
             katlyn &nbsp;&nbsp;&nbsp;&nbsp; 
@@ -86,7 +97,17 @@
             <button class="answer">answer</button>
         </span>
 
-        <hr/>
+        <br/><br/><hr/>
     </main>
+
+    <br/><br/>
+
+    <div id="mydiv">
+        <P>Paragraph 1</P>
+        <P>Paragraph 2</P>
+    </div>
+    <p>Paragraph 3</p>
+
+
 </body>
 </html>
