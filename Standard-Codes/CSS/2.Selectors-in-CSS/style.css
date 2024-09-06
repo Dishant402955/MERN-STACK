@@ -1,0 +1,32 @@
+*{
+    padding : 0 px;
+    margin : 0 px;
+    font-family: monospace;
+}
+
+h3{
+    color: rgb(255, 0, 183);
+}
+
+h1{
+    color: brown;
+}
+
+#login{
+    color: aliceblue;
+    background-color: black;
+}
+
+#signup{
+    background-color: aqua;
+    color: brown;
+}
+
+.upvote{
+    background-color: aquamarine;
+}
+
+.answer{
+    background-color: chocolate;
+}
+
