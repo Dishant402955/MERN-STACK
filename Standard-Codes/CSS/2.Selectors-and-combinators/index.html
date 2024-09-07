@@ -9,26 +9,32 @@
 </head>
 
 <body>
-    <h1>Selectors in CSS : </h1>
-    <p>There are many types of selectors in CSS like : Element, universal, id, class, descendent, attribute selectors.</p>
-    <p>Through element selector we can select a specific element by using it's name.</p>
-    <p>Through universal selector '*' ,through which we can select each element of out entire document.</p>
-    <p>Through Id selector we can select a perticular element with Id.</p>
-    <p>Through class selector we can select a perticular group elements with same class.</p>
-    <p>Through Descendant selector we can select a element inside a perticuler element.</p>
-    <p>Through attribute selector we can select elements based on their attribute values ,like input[type="text"] will select input elements of type text.</p>
-    <br>
-    <p>The order of importance in selectors is : id > class > element</p>
-    <br>
+    <h2>Selectors in CSS : </h2>
+    <p>There are many types of selectors in CSS like : Element, universal, id, class, descendent, attribute, pseudo-class, pseudo-element selectors.</p>
+    <p>Element selector - we can select a specific element by using it's name.</p>
+    <p>Universal selector '*' - we can select each element of out entire document.</p>
+    <p>Id selector (#my-id) - we can select a perticular element with Id.</p>
+    <p>Class selector (.my-class) - we can select a perticular group elements with same class.</p>
+    <p>Descendant selector - we can select a element inside a perticuler element.</p>
+    <p>Attribute selector - we can select elements based on their attribute values ,like input[type="text"] will select input elements of type text.</p>
+    <p>Pseudo-class selectors - we can select element(s) on an special event like hover, active, checked, nth-of-type and many more... </p>
+    <p>Pseudo-element selectors - we can select a specific-part of an element for styling.</p>
+
+    <br/><hr/><br/>
+
+    <h2>Specificity and cascading : </h2>
+    <p>id >> class & attribute & pseudo-class >> element & pseudo-element. </p>
+    <p>Inline styling will have higher priority than these 3 , But if !important is given then it will have the highest priority than any other even more than inline.</p>
+    <p>Selector specificity by number : _ _ _ (if numbers come same than should use and consider cascading property.)</p>
+
+    <br/><hr/><br/>
+
     <h2>Adjacent Sibling Combinator :</h2>
     <p>There are many types of combinator available like : +, >, ~ </p>
     <p> '+' is used to select a element which comes immediatly after it and are of same level, like " p + a " will select 'a' which comes immediatly after p .</p>
     <p> '>' is used to select elements which are direct chidld of an element, like " p > a " will select all 'a' which are direct childs of 'p'.</p>  
-   
-    <br><hr/><br/><br/>
-    <p>So the demonstration is shown below .</p>
 
-    <br><br><hr/><hr/><hr/>
+    <br><br><hr/><hr/><hr/><br/>
 
     <header>
         <h1>Quora
@@ -51,7 +57,7 @@
     </header>
 
     <main>
-        <p>
+        <div class="post"><p>
             Adam &nbsp;&nbsp; 
             <a href="/adam" class="follow">Follow /adam</a>
         </p>
@@ -60,10 +66,11 @@
             <button class="upvote">+upvote</button>
             <button class="answer">answer</button>
         </span>
+        </div>
 
         <br/><br/><hr/>
 
-        <p>
+        <div class="post"><p>
             Bob &nbsp;&nbsp; 
             <a href="/Bob" class="follow">Follow /Bob</a>
         </p>
@@ -72,10 +79,11 @@
             <button class="upvote">+upvote</button>
             <button class="answer">answer</button>
         </span>
+        </div>
 
         <br/><br/><hr/>
 
-        <p>
+        <div class="post"><p>
             Dan &nbsp;&nbsp; 
             <a href="/adam" class="follow">Follow /dan</a>
         </p>
@@ -84,10 +92,11 @@
             <button class="upvote">+upvote</button>
             <button class="answer">answer</button>
         </span>
+        </div>
 
         <br/><br/><hr/>
 
-        <p>
+        <div class="post"><p>
             katlyn &nbsp;&nbsp;&nbsp;&nbsp; 
             <a href="/katlyn" class="follow">Follow /katlyn</a>
         </p>
@@ -96,6 +105,7 @@
             <button class="upvote">+upvote</button>
             <button class="answer">answer</button>
         </span>
+        </div>
 
         <br/><br/><hr/>
     </main>
@@ -106,8 +116,18 @@
         <P>Paragraph 1</P>
         <P>Paragraph 2</P>
     </div>
-    <p>Paragraph 3</p>
+    <p>Paragraph 3</p>  
 
+    <br/><br/><hr/><br/>
+
+    <div>
+        <input type="radio" id="yes" name="agree">
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="agree">
+        <label for="no">No</label>
+    </div>
+
+    <br/><br/><hr/><br/>
 
 </body>
 </html>

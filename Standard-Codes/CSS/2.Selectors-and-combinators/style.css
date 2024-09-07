@@ -53,3 +53,26 @@ input[type="text"] {
 input[type="password"] {
     text-align: right;
 }
+
+button:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+input[type="radio"]:checked + label{
+    color: red;
+}
+
+main .post:nth-of-type(2n){
+    background-color:rgb(191, 215, 216);
+}
+
+p::first-letter{
+   font-weight: 900;
+   font-size: large;
+}
+
+p::selection{
+    background-color: black;
+    color: aliceblue;
+}
