@@ -105,5 +105,36 @@
 #shadow{
     height: 100px;
     width: 200px;
-    box-shadow:  2px 2px 10px black;
+    box-shadow:  10px 10px 35px black;
+}
+
+#backgnd-img {
+   background-image: url(Images/Certificate_CSS.jpg);
+   height: 300px;
+   width:  700px;
+   background-size: cover;
+}
+
+.card{
+    height: 380px;
+    width: 200px;
+    display: inline-block;
+    border-radius: 14px;
+    box-shadow: 0px 4px 8px;
+    transition: 0.5s ease-in-out;
+    display: inline-block;
+    margin: 34px;
+}
+
+img{
+    width: 100%;
+    border-radius: 14px;
+}
+
+.desc{
+    text-align: center;
+}
+
+.card:hover{
+    box-shadow: 0px 12px 24px;
 }
