@@ -1,0 +1,48 @@
+.box{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+
+#one{
+    background-color: antiquewhite;   
+}
+
+#two{
+    background-color:aqua;
+    position: relative;
+    bottom: 150px;
+    left: 25px;
+    z-index: 1;
+}
+
+#three{
+    background-color: aquamarine;
+    position: relative;
+    bottom: 250px;
+    left: 50px;
+    z-index: 2;
+}
+
+#four{
+    background-color: rgb(162, 89, 89);
+    position: relative;
+    bottom: 550px;
+    left: 200px;
+}
+
+#five{
+    background-color: chocolate;
+    position: relative;
+    bottom: 600px;
+    left: 120px;
+}
+
+#six{
+    background-color: rgb(131, 167, 234);
+    position: relative;
+    bottom: 850px;
+    left: 300px;
+    z-index: -1;
+}
