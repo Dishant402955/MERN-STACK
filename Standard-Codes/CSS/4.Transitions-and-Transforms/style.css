@@ -22,7 +22,7 @@
     background-color: antiquewhite;
     border: 3px solid black;
     display: inline-block;
-    transition: 0.7s ease-in-out;
+    transition: 1s ease-in-out;
     margin: 10px 20px;
    padding: 10px;
 }

@@ -1,3 +1,38 @@
-*{
-    padding: 0;
+.position{
+    height: fit-content;
+    width: fit-content;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    display: inline-block   ;
+}
+
+#static{
+    position: static;
+    left: 1000px;
+}
+
+
+#relative2{
+    background-color: aqua;
+    color: brown;
+    position: relative;
+    left: 200px;
+    top: 40px;
+}
+
+#absolute{
+    position: absolute;
+    right: 100px;
+}
+
+#fixed{
+    position: fixed;
+    bottom: 1px;
+}
+
+#sticky{
+    position: sticky;
+    top: 10px;
 }
