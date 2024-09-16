@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     
+    <h2>Grid-layout :</h2>
+
+    <p>>> It helps to make 2-D layout .</p>
+    <p>>> By setting display to the grid it will make all the children grid items. </p>
+    <p>>> it is made up of row-lines and column-lines, which creates a grid-cell on the intersections .</p>
+    <p>>> grid-lines is used to define the distance between 2 lines.</p>
+    <p>>> grid-template is used to define the lines and the track sizing, 
+        with help of grid-template-rows, grid-template-columns, grid-template-areas .</p>
+    <p>>> <code>grid-template-rows : repeat(count,1fr)</code> will create 'count' rows each with track of 1fr of available width .</p>
+    <p>>> We can give gap with help of row-gap, column-gap, grid-gap .</p>
+    <p>>> grid-column is used to define an item's starting & ending position inside the column
+        with syntax <code>grid-column : start-col/end-col</code>  or <code>grid-column : start-col/ span n</code> .</p>
+    <p>>> grid-row is used to define an item's starting & ending position inside the row.</p>
+    <p>>> <code>justify-items</code> is used to align items of container horizontally with values like
+        ,</p>
+    <p>>> <code>justify-self</code> is uded to align an perticuler item horizontally with values like 
+        ,</p>
+    <p>>> <code>align-items</code> is used to align items of contianer vertically with values like 
+        ,</p>
+    <p>>> <code>align-self</code> is used to align an perticuler item vertically with the values like 
+        ,</p>
+
+
+    <br/><br/><br/>
+
+    <div class="grid-container">
+        <div id="box1" class="box">Box1</div>
+        <div id="box2" class="box">Box2</div>
+        <div id="box3" class="box">Box3</div>
+        <div id="box4" class="box">Box4</div>
+        <div id="box5" class="box">Box5</div>
+        <div id="box6" class="box">Box6</div>
+        <div id="box7" class="box">Box7</div>
+        <div id="box8" class="box">Box8</div> 
+    </div>
+
+    <br/><br/><br/>
+
+    <div class="grid-container-2">
+        <div id="box1-2" class="box-2">Box1</div>
+        <div id="box2-2" class="box-2">Box2</div>
+        <div id="box3-2" class="box-2">Box3</div>
+        <div id="box4-2" class="box-2">Box4</div>
+        <div id="box5-2" class="box-2">Box5</div>
+        <div id="box6-2" class="box-2">Box6</div>
+        <div id="box7-2" class="box-2">Box7</div>
+        <div id="box8-2" class="box-2">Box8</div>
+    </div>
+
 </body>
+
 </html>

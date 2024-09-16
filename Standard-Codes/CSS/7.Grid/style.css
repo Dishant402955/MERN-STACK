@@ -1,0 +1,110 @@
+.grid-container{
+    background-color: rgb(127, 174, 174);
+    height: 600px;
+    width: 1000px;
+    border: 2px solid black;
+    margin: 50px auto;
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: repeat(4, 1fr);  
+}
+    
+.box{   
+    border: 2px solid black;
+    text-align: center;
+}
+
+#box1{
+    background-color: rgb(159, 159, 255);
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#box2{
+    background-color: rgb(167, 126, 204);
+
+}
+
+#box3{
+    background-color: blanchedalmond;
+}
+
+#box4{
+    background-color: rgb(250, 164, 237);
+    grid-row: 2/4 ;
+}
+
+#box5{
+    background-color: rgb(144, 155, 98);
+    grid-row: 2/ span 2;
+}
+
+#box6{
+    background-color: rgb(160, 126, 79);
+}
+
+#box7{
+    background-color: rgb(181, 157, 92);
+}
+
+#box8{
+    background-color: rgb(235, 44, 66);
+}
+
+.grid-container-2{
+    background-color: rgb(127, 174, 174);
+    height: 600px;
+    width: 600px;
+    border: 2px solid black;
+    margin: 50px auto;
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: repeat(3, 1fr);  
+    place-items: center;
+    /*justify-items : center
+      align-items : center*/
+}
+    
+.box-2{   
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#box1-2{
+    background-color: rgb(159, 159, 255);
+    justify-self: start;
+}
+
+#box2-2{
+    background-color: rgb(167, 126, 204);
+    align-self: end;
+}
+
+#box3-2{
+    background-color: blanchedalmond;
+}
+
+#box4-2{
+    background-color: rgb(250, 164, 237);
+}
+
+#box5-2{
+    background-color: rgb(144, 155, 98);
+}
+
+#box6-2{
+    background-color: rgb(160, 126, 79);
+}
+
+#box7-2{
+    background-color: rgb(181, 157, 92);
+}
+
+#box8-2{
+    background-color: rgb(235, 44, 66);
+    place-self: end;
+}
+
+
