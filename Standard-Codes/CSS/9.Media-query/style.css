@@ -1,0 +1,29 @@
+div{
+    height: 200px;
+    width: 600px;
+    border: 2px solid black;
+}
+
+@media(max-width : 700px){
+    div{
+        background-color: green;
+    }
+} 
+
+@media(min-width : 1100px){
+    div{
+        background-color: red;
+    }
+}
+
+@media(min-width : 700px) and (max-width : 1100px){
+    div{
+        background-color: blue;
+    }
+}
+
+@media(orientation : portrait){
+    div{
+        background-color: black;
+    }
+}
