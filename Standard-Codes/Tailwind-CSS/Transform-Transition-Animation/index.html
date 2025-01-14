@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform, Transition and Animation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="p-10">
+
+    <div class="m-10 flex justify-center">
+        <button class="p-2 text-white bg-indigo-700 hover:bg-green-500 ">Hover-me</button>
+        <button class="m-5 p-5 bg-blue-700 text-white transition hover:bg-green-500 duration-1000 ease-in-out">Button with
+            Transition</button>
+        
+        <button
+            class="p-5 m-5 text-white bg-indigo-500 transition ease-in-out delay-75 duration-1000 hover:translate-y-10 hover:bg-amber-800 hover:scale-110">Transformation</button>
+    </div>
+    
+    
+
+    <div class="m-10 flex justify-center">
+        <div class="p-2 m-10 max-w-fit bg-teal-200 animate-spin">Spin</div>
+        <div class="p-2 m-10 max-w-fit bg-teal-200 animate-ping">ping</div>
+        <div class="p-2 m-10 max-w-fit bg-teal-200 animate-pulse">pulse</div>
+        <div class="p-2 m-10 max-w-fit bg-teal-200 animate-bounce">bounce</div>
+    </div> 
+
+</body>
+
+</html>
