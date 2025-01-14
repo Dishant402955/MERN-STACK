@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sizing in tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    
+    <h2 class="m-10">1. Width</h2>
+    <div class="bg-teal-100 p-5">
+        <div class="bg-red-300 m-1 px-2 w-0">0</div>
+        <div class="bg-red-300 m-1 px-2 w-1">1</div>
+        <div class="bg-red-300 m-1 px-2 w-1.5">1.5</div>
+        <div class="bg-red-300 m-1 px-2 w-2">2</div>
+        <div class="bg-red-300 m-1 px-2 w-2.5">2.5</div>
+        <div class="bg-red-300 m-1 px-2 w-4">4</div>
+        <div class="bg-red-300 m-1 px-2 w-5">5</div>
+        <div class="bg-red-300 m-1 px-2 w-6">6</div>
+        <div class="bg-red-300 m-1 px-2 w-9">9</div>
+        <div class="bg-red-300 m-1 px-2 w-10">10</div>
+        <div class="bg-red-300 m-1 px-2 w-11">11</div>
+        <div class="bg-red-300 m-1 px-2 w-12">12</div>
+        <div class="bg-red-300 m-1 px-2 w-14">14</div>
+        <div class="bg-red-300 m-1 px-2 w-16">16</div>
+        <div class="bg-red-300 m-1 px-2 w-24">24</div>
+    </div>
+
+    <h2 class="m-10">2. Width in Percentage</h2>
+    <div class="bg-violet-200 p-5">
+        <div class="bg-lime-300 m-1 px-2 w-1/2">1/2</div>
+        <div class="bg-lime-300 m-1 px-2 w-1/3">1/3</div>
+        <div class="bg-lime-300 m-1 px-2 w-1/4">1/4</div>
+        <div class="bg-lime-300 m-1 px-2 w-1/5">1/5</div>
+        <div class="bg-lime-300 m-1 px-2 w-1/6">1/6</div>
+        <div class="bg-lime-300 m-1 px-2 w-1/12">1/12</div>
+        <div class="bg-lime-300 m-1 px-2 w-2/3">2/3</div>
+        <div class="bg-lime-300 m-1 px-2 w-2/4">2/4</div>
+        <div class="bg-lime-300 m-1 px-2 w-2/5">2/5</div>
+        <div class="bg-lime-300 m-1 px-2 w-2/6">2/6</div>
+        <div class="bg-lime-300 m-1 px-2 w-2/12">2/12</div>
+    </div>
+
+    <h2 class="m-10">3. Max-width</h2>
+    <div class="bg-gray-400 p-5">
+        <div class="bg-indigo-500 m-5 text-white px-2 max-w-4xl ">
+            Lorem ipsum,e tempora tempore. Eius nihil expedita fuga quia libero magni?
+        </div>
+        <div class="bg-indigo-500 m-5 text-white px-2 max-w-sm ">
+            Lorem ipsum bus, earum ab neque! Voluptas exercitationem similique nobis 
+        </div>
+        <div class="bg-indigo-500 m-5 text-white px-2 max-w-xs ">
+            Lorem ipsum tatis sequi dignissimos quidem optio, ab eius quis nisi reprehenderit? 
+
+        </div>
+        <div class="bg-indigo-500 m-5 text-white px-2 max-w-lg ">
+            Lorem ipsum earum id iure architecto nihil accusantium a similique dolor totam 
+
+        </div>
+        <div class="bg-indigo-500 m-5 text-white px-2 max-w-xl ">
+            Lorem ipsum ur beatae similique, architecto dolor ab impedit blanditiis tenetur, 
+        </div>
+    </div>
+
+    <h2 class="m-10">4. Min-Width</h2>
+    <div class="bg-red-600 text-white p-5">Similar To Max</div>
+
+    <h2 class="m-10">5. VW & Width 100%</h2>
+    <div class="bg-green-500 my-2 p-2 w-screen">Screen (VW)</div>
+    <div class="bg-green-500 my-2 p-2 w-full">Full (100% Width)</div>
+
+    <h2 class="m-10">6. Arbitrary-width</h2>
+    <div class="bg-green-500 my-2 p-2 w-[500px]">500px</div>
+    <div class="bg-green-500 my-2 p-2 w-[10vw]">10vw</div>
+    <div class="bg-green-500 my-2 p-2 w-[50%]">50%</div>
+    <div class="bg-green-500 my-2 p-2 w-[60vw]">60vw</div>
+
+    <h2 class="m-10">7. height</h2>
+    <div class="bg-teal-100 p-5 m-1 flex">
+        <div class="bg-red-300 m-1 px-2 h-0">0</div>
+        <div class="bg-red-300 m-1 px-2 h-1">1</div>
+        <div class="bg-red-300 m-1 px-2 h-1.5">1.5</div>
+        <div class="bg-red-300 m-1 px-2 h-2">2</div>
+        <div class="bg-red-300 m-1 px-2 h-2.5">2.5</div>
+        <div class="bg-red-300 m-1 px-2 h-4">4</div>
+        <div class="bg-red-300 m-1 px-2 h-5">5</div>
+        <div class="bg-red-300 m-1 px-2 h-6">6</div>
+        <div class="bg-red-300 m-1 px-2 h-7">7</div>
+        <div class="bg-red-300 m-1 px-2 h-8">8</div>
+        <div class="bg-red-300 m-1 px-2 h-9">9</div>
+        <div class="bg-red-300 m-1 px-2 h-10">10</div>
+        <div class="bg-red-300 m-1 px-2 h-11">11</div>
+        <div class="bg-red-300 m-1 px-2 h-16">16</div>
+        <div class="bg-red-300 m-1 px-2 h-20">20</div>
+    </div>
+
+    <h2 class="m-10">8. height in Percentage</h2>
+    <div class="bg-violet-200 p-5 m-1 flex items-center h-[500px]">
+        <div class="bg-lime-300 m-1 px-2 h-1/2">1/2</div>
+        <div class="bg-lime-300 m-1 px-2 h-1/3">1/3</div>
+        <div class="bg-lime-300 m-1 px-2 h-1/4">1/4</div>
+        <div class="bg-lime-300 m-1 px-2 h-1/5">1/5</div>
+        <div class="bg-lime-300 m-1 px-2 h-1/6">1/6</div>
+        <div class="bg-lime-300 m-1 px-2 h-1/12">1/12</div>
+        <div class="bg-lime-300 m-1 px-2 h-2/3">2/3</div>
+        <div class="bg-lime-300 m-1 px-2 h-2/4">2/4</div>
+        <div class="bg-lime-300 m-1 px-2 h-2/5">2/5</div>
+        <div class="bg-lime-300 m-1 px-2 h-2/6">2/6</div>
+        <div class="bg-lime-300 m-1 px-2 h-2/12">2/12</div>
+    </div>
+
+    <h2 class="m-10">9. Max-height</h2>
+    <div class="bg-gray-400 p-5 flex items-start h-[800px]">
+        <div class="bg-indigo-500 m-5 text-white px-2 w-20 max-h-full ">
+            Lorem ipsum,e tempora tempore. Eius nihil expedita fuga quia libero magni?
+        </div>
+        <div class="bg-indigo-500 m-5 text-white px-2 w-20 max-h-7 ">
+            Lorem ipsum bus, earum ab neque! Voluptas exercitationem similique nobis 
+        </div>
+        <div class="bg-indigo-500 m-5 text-white px-2 w-20 max-h-28 ">
+            Lorem ipsum tatis sequi dignissimos quidem optio, ab eius quis nisi reprehenderit? 
+
+        </div>
+        <div class="bg-indigo-500 m-5 text-white px-2 w-20 max-h-11 ">
+            Lorem ipsum earum id iure architecto nihil accusantium a similique dolor totam 
+
+        </div>
+        <div class="bg-indigo-500 m-5 text-white px-2 w-20 max-h-fit ">
+            Lorem ipsum ur beatae similique, architecto dolor ab impedit blanditiis tenetur, 
+        </div>
+    </div>
+
+    <h2 class="m-10">10. Min-height</h2>
+    <div class="bg-red-100 p-5">Similar To Max</div>
+
+    <h2 class="m-10">11. Arbitrary-height</h2>
+    <div class="container flex bg-indigo-200 p-5">
+        <div class="bg-green-500 m-2 p-4 h-[50px]">50px</div>
+        <div class="bg-green-500 m-2 p-4 h-[20vh]">20vh</div>
+    </div>
+   
+    <h2 class="m-10">12. Width Auto</h2>
+    <div class="bg-gray-200 p-2 m-2 w-auto">
+        Auto Width 
+    </div>
+
+</body>
+
+</html>
