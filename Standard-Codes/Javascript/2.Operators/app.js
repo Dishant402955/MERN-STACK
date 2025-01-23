@@ -36,3 +36,15 @@
 // console.log("\n== checks only value ; === checks both value & type\n");
 
 //--------------------------------------------------------------------------------------
+
+// let one = 18;
+// let two = 7;
+
+// console.log("one = ", one, " , two = ", two);
+// console.log("one & two = ", one & two);
+// console.log("one | two = ", one | two);
+// console.log("one ^ two = ", one ^ two);
+// console.log("~one = ", ~one);
+// console.log("~two ", ~two);
+
+//--------------------------------------------------------------------------------------
