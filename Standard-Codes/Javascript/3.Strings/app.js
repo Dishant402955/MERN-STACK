@@ -45,8 +45,8 @@
 //--------------------------------------------------------------------------------------
 
 // let desc = `\nthis is 
-//     a   multiline
-//             string .\n`;
+//     a   example of 
+//             template string .\n`;
 
 // console.log(desc);
 
