@@ -46,3 +46,43 @@
 // console.log();
 
 //--------------------------------------------------------------------------------------
+
+// // destructuring the arrays
+// const arr = [1, 2, 3, 4];
+
+// const [one1, two1, three1, four1] = arr;
+// console.log(one1, two1, three1, four1);
+
+// const [one2, two2, three2] = arr;
+// console.log(one2, two2, three2);
+
+// const [one3, two3] = arr;
+// console.log(one3, two3);
+
+//--------------------------------------------------------------------------------------
+
+// const arr = [1, 2];
+
+// let [one, two, three] = arr;
+// console.log(one, two, three);
+
+// [one = 5, two = 10, three = 20] = arr;
+// console.log(one, two, three);
+
+// arr.push(3);
+
+// [one, , three] = arr;
+// console.log(one, three);
+
+// arr.push(4);
+
+// [one, , ,three] = arr;
+// console.log(one, three);
+
+// [one, ...two] = arr;
+// console.log(one, two);
+
+// [one, two, ...three] = arr;
+// console.log(one, two, three);
+
+//--------------------------------------------------------------------------------------
