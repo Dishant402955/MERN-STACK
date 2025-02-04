@@ -1,5 +1,5 @@
 import express from "express";
-// for  express-routers/middlewares demonstration
+// for  express-routers demonstration
 import students from "./routes/students.js";
 import employees from "./routes/employees.js";
 import teachers from "./routes/teachers.js";
@@ -45,7 +45,7 @@ const app = express();
 //     .delete((req, res) => res.send("delete Method"))
 //     .patch((req, res) => res.send("patch Method"));
 
-// express-routers/middlewares
+// express-routers
 app.use("/students", students);
 app.use("/employees", employees);
 app.use("/teachers", teachers);
