@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <h1>Home Page</h1>
+
+    <br>
+    2+2 = <%= 2+2 %> 
+    <br>
+    fname = <%= fname %>
+    <br>
+    lname = <%= lname %>
+
+    <!-- Conditional rendering -->
+    <% if(id===1){ %>
+        <h1>id : <%= id %> If block</h1>
+    <%} else if(id===2){%>
+        <h1>id : <%= id %> Else if Block</h1>
+    <%} else{%>
+        <h1>id : <%= id %> else block</h1>
+    <%} %>
+
+    <!-- Looping -->
+    <% for (let i=0; i < 5; i++) {%>
+        <p><%= i %> </p>
+    <%} %>
+
+</body>
+
+</html>
