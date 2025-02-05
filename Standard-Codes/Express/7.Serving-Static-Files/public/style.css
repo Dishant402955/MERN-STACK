@@ -1,0 +1,28 @@
+*{
+    margin: 1rem;
+    padding: 1rem;
+}
+  
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.toggle{
+    padding: 0.5rem 1rem;
+    border: 2px solid blueviolet;
+    cursor: pointer;
+}
+
+.heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+    border: 2px white solid;
+}
